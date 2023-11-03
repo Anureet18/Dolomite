@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
+
+.question{
+    background-color:#002040;
+    height: 282px;
+    align-items: center;
+}
+.btn-light{
+    margin-right: 0;
+}
+.ques{
+    color: #F8F8F8;
+    font-family: jost;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+}
+.ques p{
+    font-size: 38px;
+}
+.ques button{
+    width: 260px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+}
+.row{
+    text-align: center; 
+    justify-content: space-evenly;
+}
+
+.foot{
+    padding: 80px;   
+}
+
+.foot h1{
+    font-size: 26px;
+    font-family: jost;
+    font-weight: 600;  
+    padding-top: 12px;  
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-top: 12px;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: space-around;
+    padding: 0;
+}
+.footer-column p{
+    padding-top: 12px;
+}
+.terms{
+    background-color: #F8F8F8;
+}
+.terms p{
+    font-size: 12px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media only screen and (max-width: 1440px) {
+    a{
+        font-size: 15px;
+    padding-top: 6px;;
+     }
+     .footer-column p{
+        font-size: 15px;
+    padding-top: 5px;
+     }
+    .question{
+        height: 214px;
+    }  
+    .ques{
+        padding: 4rem;
+    }  
+    .ques p{
+        font-size: 30px;
+    }
+    .ques button {
+          margin-block: auto;
+          width: 204px;
+        }
+    .foot {
+         padding: 29px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    a{
+        font-size: 15px;
+    padding-top: 6px;;
+     }
+     .footer-column p{
+        font-size: 14px;
+    padding-top: 5px;
+     }
+
+.question{
+    height: 192px;
+}  
+.ques{
+    padding: 3rem;
+}  
+.ques p{
+    font-size: 26px;
+}
+.ques button {
+      margin-block: auto;
+      width: 150px;
+    }
+.foot {
+     padding: 46px;
+}
+.terms p{
+    font-size: 9px;
+    padding: 25px;
+}
+}
+@media only screen and (max-width: 768px) {
+    
+    .col {
+        padding: 27px 0px;
+    }
+    .ques{
+        padding: 3rem;
+    }
+    .ques p{
+        font-size: 17px;
+    }
+    .ques button {
+        width: 129px;
+        height: 33px;
+        font-size: 17px;
+        padding: 5px 10px;
+    }
+    .question{
+        height: 142px;
+     }
+     .foot{
+        padding: 26px;
+     }
+     .footer-column p{
+        font-size: 8px;
+        padding-top: 0px;
+     }
+
+     .foot h1{
+        font-size: 12px;
+        padding-top: 5px;
+        margin: 0;
+     }
+     a{
+        font-size: 8px;
+        padding-top: 1px;
+     }
+     .footer-img{
+        width: 32px;
+        height: 32px;
+     }
+     .social-icons{
+        font-size: 8px;
+     }
+     .terms p{
+        font-size: 7px;
+        padding: 20px;
+     }
+}
+@media only screen and (max-width: 567px) {
+    
+    .col {
+        padding: 27px 0px;
+    }
+    .ques{
+        padding: 1rem;
+    }
+    .ques p{
+        font-size: 12px;
+    }
+    .ques button {
+        width: 73px;
+        height: 24px;
+        font-size: 10px;
+        padding: 4px 8px;
+   }
+
+    .question{
+        height: 96px;
+     }
+     .foot{
+        padding: 16px;
+     }
+     .footer-column p{
+        font-size: 5px;
+        padding-top: 1px;
+     }
+
+     .foot h1{
+        font-size: 11px;
+     }
+     a{
+        font-size: 6px;
+        padding-top: 1px;
+     }
+     .footer-img{
+        width: 22px;
+        height: 20px;
+     }
+     .social-icons{
+        font-size: 6px;
+     }
+     .terms p{
+         font-size: 4px;
+         padding: 14px 0;
+     }
+}

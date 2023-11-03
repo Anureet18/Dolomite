@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
+
+.main_about{
+    background-color:#F8F8F8;
+    margin-top: 8rem;
+    height: 364px;
+}
+.about-us{
+   padding: 50px 0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: jost;
+}
+.about{
+    text-align: center;
+}
+.about h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+.about p{
+    font-size: 26px;
+    font-weight: 500;
+}
+.about img{
+    font-size: 44px;
+    margin: 23px;
+}
+@media only screen and (max-width: 1320px){
+    .about-us {
+        padding: 34px 0;
+    }
+    .main_about {
+        background-color: #F8F8F8;
+        margin-top: 8rem;
+        height: 230px;
+    }
+    .about h1{
+        font-size: 24px;
+    }
+    .about img{
+        width: 44px;
+        height: 44px;
+    }
+    .about p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about-us {
+        padding: 20px 0;
+    }
+    .main_about {
+        background-color: #F8F8F8;
+        margin-top: 2rem;
+        height: 184px;
+    }
+    .about h1{
+        font-size: 24px;
+    }
+    .about img{
+        width: 32px;
+        height: 32px;
+        margin: 16px
+    }
+    .about p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 567px){
+    .about-us {
+        padding: 14px 0;
+    }
+    .main_about {
+        background-color: #F8F8F8;
+        margin-top: 1rem;
+        height: 106px;
+    }
+    .about h1{
+        font-size: 14px;
+    }
+    .about img{
+        width: 18px;
+        height: 18px;
+        margin: 8px;
+    }
+    .about p{
+        font-size: 8px;
+    }
+}

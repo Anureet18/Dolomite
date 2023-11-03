@@ -1,0 +1,12 @@
+.similar-content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.similar-button{
+    width: 136px;
+    height: 50px;
+    font-weight: 700;  
+}

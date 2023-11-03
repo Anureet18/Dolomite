@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
+
+.accomodation-outer{
+    padding: 76px;
+}
+.accomodation{
+    padding: 76px;
+}
+
+.top-heading{
+    text-align: left; 
+}
+.top-heading h1{
+    font-weight: 400;
+    font-size: 50px;
+    font-family: DM Serif display;
+}
+.top-heading p{
+    font-family: jost;
+    font-weight: 400;
+    font-size: 24px;
+}
+.villa{
+    width: 100%;
+}
+.map{
+   width: 100%;
+   height: 640px;
+}
+@media only screen and (max-width: 1440px) {
+    .accomodation-outer{
+        padding: 76px;
+    }
+    .accomodation{
+        padding: 76px;
+    }
+    .top-heading h1{
+        font-size: 45px;
+    }
+    .top-heading p{
+        font-size: 20px;
+    }
+    .map{
+        width: 100%;
+        height: 640px;
+     }
+    }
+
+@media only screen and (max-width: 1024px) {
+    .accomodation-outer{
+        padding: 42px;
+    }
+    .accomodation{
+        padding: 42px;
+    }
+    .top-heading h1{
+        font-size: 32px;
+    }
+    .top-heading p{
+        font-size: 15px;
+    }
+    .map{
+        width: 100%;
+        height: 330px;
+     }
+}
+@media only screen and (max-width: 786px) {
+    .accomodation-outer{
+        padding: 26px;
+    }
+    .accomodation{
+        padding: 26px;
+    }
+    .top-heading h1{
+        font-size: 28px;
+    }
+    .top-heading p{
+        font-size: 12px;
+    }
+    .map{
+        width: 100%;
+        height: 250px;
+     }
+    }
+    @media only screen and (max-width: 425px) {
+        .accomodation-outer{
+            padding: 28px;
+        }
+        .accomodation{
+            padding: 28px 0;
+        }
+        .top-heading h1{
+            font-size: 21px;
+        }
+        .top-heading p{
+            font-size: 12px;
+            padding-bottom: 12px;
+        }
+        .map{
+            width: 100%;
+            height: 180px;
+         }
+        
+        }
+        @media only screen and (max-width: 320px) {
+            .accomodation-outer{
+                padding: 20px;
+            }
+            .accomodation{
+                padding: 28px 0;
+            }
+            .top-heading h1{
+                font-size: 18px;
+            }
+            .top-heading p{
+                font-size: 9px;
+                padding-bottom: 14px;
+            }
+            .map{
+                width: 100%;
+                height: 150px;
+             }
+            
+            }
+
+

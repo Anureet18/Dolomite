@@ -1,0 +1,140 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
+
+.homepage-outer{
+    padding: 50px 0;
+}
+.content{
+    padding: 0px 34px;
+    text-align: left;  
+}
+.title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 14px;
+}
+.heading{
+    font-family: jost;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.all-button{
+    width: 136px;
+    height: 50px;
+    font-weight: 700;
+    align-items: center;
+}
+@media only screen and (max-width: 1540px) {
+    .homepage-outer{
+        padding: 36px 0;
+    }
+    .content{
+        padding: 14px 35px;
+    }
+    .title{
+        text-align: left;
+    font-size: 34px;
+    padding: 6px 0;
+    }
+
+    .heading{
+        padding: 0;
+        font-size: 17px;
+    }
+    .all-button{
+        width: 124px;
+        height: 46px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .homepage-outer{
+        padding: 28px 0;
+    }
+    .content{
+        padding: 15px 20px;
+    }
+    .title{
+        font-size: 30px;
+        padding: 8px 0;
+    }
+
+    .heading{
+        padding: 0;
+        font-size: 14px;
+    }
+    .all-button{
+        width: 92px;
+        height: 38px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .homepage-outer{
+        padding: 12px 0;
+    }
+    .content{
+        padding: 20px;
+        text-align: left;  
+    }
+    .title{
+        font-size: 22px;
+    }
+
+    .heading{
+        font-size: 12px;
+    }
+    .all-button{
+        width: 60px;
+        height: 31px;
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 567px) {
+    .homepage-outer{
+        padding: 18px 0;
+    }
+    .accomodation {
+        padding: 16px 0;
+    }
+    .content{
+        padding: 0px 22px;
+        text-align: left;  
+    }
+    .title{
+        font-size: 18px;
+        padding: 3px 0;
+    }
+
+    .heading{
+        font-size: 12px;
+    }
+    .all-button{
+        width: 51px;
+        height: 24px;
+        font-size: 8px;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .homepage-outer{
+        padding: 14px 0;
+    }
+    .title{
+        font-size: 13px;
+    }
+    .heading{
+        font-size: 10px;
+    }
+    .all-button{
+        width: 51px;
+        height: 24px;
+        font-size: 8px;
+    }
+
+}

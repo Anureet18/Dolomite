@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
+
+.contact{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.contact h1{
+  font-family: DM serif display;
+  color: #002040;
+  font-size: 56px;
+  
+}
+.contact p{
+    font-size: 28px;
+    font-family: jost;
+    padding-top: 22px;
+    font-weight: 400;
+    color:#6B6B6B;
+}
+.call{
+    padding: 120px;
+}
+.contact-us{
+    
+    padding: 30px 0;
+    text-align: left;
+}
+.contact-us h1{
+ 
+  font-size: 32px;
+  align-items: center;
+  display: flex;
+}
+.contact-us p{
+ font-family: jost;
+ font-size: 22px;
+ font-weight: 400;
+}
+.number{
+    font-size: 24px;
+    font-weight: 700;
+}
+.phone img{
+    width: 70%;
+}
+.icon{
+border-radius: 50%;
+  padding: 19px;
+  font-size: 18px;
+  background-color: #002040;
+  color: azure;
+  margin-right: 20px;
+}
+.phone{
+    display: flex;
+    justify-content: end;
+}
+.book{
+    font-weight: 600;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 1440px) {
+    hr {
+        margin: 8px 0;
+    }
+    .contact{
+        padding-top: 50px;
+    }
+    .contact h1{
+      font-size: 45px;
+    }
+    .contact p{
+        font-size: 20px;
+       padding-top: 5px;
+    }
+    .call{
+        padding: 40px;
+    }
+    .contact-us{
+        padding: 16px 0;
+    }
+    .contact-us h1{
+      font-size: 22px;
+    }
+    .contact-us p{
+        font-size: 16px;
+        padding-top: 4px;
+    }
+    .phone img{
+        width: 86%;
+    }
+    .number {
+        font-size: 18px;
+    }
+    .icon{
+        padding: 8px;
+        font-size: 5px;
+        margin-right: 11px;
+    }
+    }
+
+
+@media only screen and (max-width: 1024px) {
+    .call{
+        display: flex;
+        flex-direction: column;
+    }
+    hr{
+         margin: 8px 0;
+    }
+    .contact{
+        padding-top: 50px;
+    }
+    .contact h1{
+      font-size: 32px;
+    }
+    .contact p{
+        font-size: 16px;
+       padding-top: 5px;
+    }
+    .call{
+        padding: 40px;
+    }
+    .contact-us{
+        padding: 14px 0;
+    }
+    .contact-us h1{
+        margin: 0px;
+      font-size: 16px;
+    }
+    .number {
+        font-size: 12px;
+    }
+    .contact-us p{
+        font-size: 11px;
+        padding-top: 0px;
+    }
+    .phone img{
+        width: 80%;
+    }
+    .icon{
+        padding: 4px;
+    font-size: 6px;
+    margin-right: 5px;
+    }
+    .icon img{
+        width: 12px;
+        height: 12px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    hr{
+         margin: 3px 0;
+    }
+    .contact{
+        padding-top: 34px;
+    }
+    .contact h1{
+      font-size: 24px;
+    }
+    .contact p{
+        font-size: 12px;
+       padding-top: 0px;
+    }
+    .call{
+        padding: 40px;
+    }
+    .contact-us{
+        padding: 10px 0;
+    }
+    .contact-us h1{
+        margin: 0px;
+      font-size: 14px;
+    }
+    .number {
+        font-size: 10px;
+    }
+    .contact-us p{
+        font-size: 8px;
+        padding-top: 0px;
+    }
+    .phone img{
+        width: 80%;
+    }
+    .phone {
+        justify-content: center;
+    }
+    .icon{
+        padding: 4px;
+        font-size: 6px;
+        margin-right: 5px;
+    }
+    .icon img{
+        width: 9px;
+        height: 9px;
+    }
+
+}
+@media only screen and (max-width: 567px) {
+    hr{
+         margin: 2px 0;
+    }
+    .contact{
+        padding-top: 24px;
+    }
+    .contact h1{
+      font-size: 22px;
+    }
+    .contact p{
+        font-size: 10px;
+       padding-top: 0px;
+    }
+    .call{
+        padding: 24px;
+    }
+    .contact-us{
+        padding: 0px 45px 20px 45px
+    }
+    .contact-us h1{
+        margin: 0px;
+       font-size: 14px;
+    }
+    .number {
+        font-size: 10px;
+    }
+    .contact-us p{
+        font-size: 8px;
+        padding-top: 0px;
+    }
+    .phone {
+        justify-content: center;
+    }
+    .phone img{
+        width: 80%;
+    }
+    .icon{
+        padding: 4px;
+        font-size: 6px;
+        margin-right: 5px;
+    }
+    .icon img{
+        width: 8px;
+        height: 8px;
+    }
+
+}
+
+

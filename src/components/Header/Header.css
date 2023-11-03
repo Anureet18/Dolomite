@@ -1,0 +1,153 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
+
+.navbar{
+    height:110px;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(175, 168, 168, 0.5);
+    grid-template-columns: 68px 1fr 2fr 1fr 68px;
+    width: 100%;
+    padding: 0px;
+}
+.navbar-collapse{
+    
+}
+a.menu-link.active {
+    background: unset;
+}
+.logo{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.menu-link {
+  grid-column: 3/4;
+}
+
+.menu-link ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px; 
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #002040;
+    grid-column: 2/3;
+}
+
+.hamburger-menu{
+    display: none;
+}
+.list-icon{
+    grid-column: 4/5;
+    font-size: 30px;
+    text-align: right;
+}
+
+@media (max-width:1024px) {
+  .navbar{
+    height: 56px;
+    grid-template-columns: 50px 2fr 2fr 50px;
+  }    
+  .menu-link {
+    display: none;
+  }
+  .nav-list{
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-dolo{
+    width: 62px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+}
+a {
+  padding-top: 0px;
+}
+.menu-link {
+  display: none;
+}
+
+.mobile-menu-link {
+  right: 0;
+  position: absolute;
+  background-color: white;
+  height: 15rem;
+  padding: 12px 39px;
+  display: grid;
+  align-items: center;
+  transition: all 1s linear;
+  transform-origin: top;
+  box-shadow: 0px 0px 5px rgba(0,0,0,30%);
+  top: 49px;
+}
+.menu-link ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  list-style: none;
+  padding: 0px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #002040;
+  grid-column: 4/5;
+}
+.menu-link li{
+  font-size: 26px;
+  font-weight: 600
+}
+.list-icon{
+ display: none;
+}
+.hamburger-menu{
+  grid-column: 4/5;
+  display: flex;
+  justify-content: right;
+  font-size: 1.4rem;
+}
+}
+@media (max-width:567px) {
+  .mobile-menu-link {
+    right: 0;
+    position: absolute;
+    background-color: white;
+    height: 13rem;
+    padding: 3px 30px;
+    display: grid;
+    align-items: center;
+    transition: all 1s linear;
+    transform-origin: top;
+    box-shadow: 0px 0px 5px rgba(0,0,0,30%);
+    top: 21px;
+}
+.menu-link li{
+  font-size: 24px;
+  font-weight: 600;
+}
+  .logo-dolo {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    display: flex;
+}
+  .hero-container {
+    min-height: calc(100vh - 26px);
+  }
+  .navbar{
+    height: 26px;
+    grid-template-columns: 20px 2fr 2fr 20px;
+  }  
+}
