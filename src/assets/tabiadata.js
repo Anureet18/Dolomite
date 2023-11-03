@@ -16,10 +16,10 @@ let tabiadata= [
     {
      id:3,
      name:"Exclusive Arabba",
-     price:"$ 223/Night",
+     price:"$ 227/Night",
      image:'./images/image3.png',
      location:"Arabba",
-    },
+    }, 
 ]
 
 export default tabiadata
