@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
 
 .accomodation-outer{
-    padding: 76px;
+    padding: 56px 76px ;
+    align-items: center;
 }
 .accomodation{
     padding: 76px;
 }
-
+.accomodation-item{
+    padding: 1.2rem 0 0 1.2rem;
+}
 .top-heading{
     text-align: left; 
 }
 .top-heading h1{
     font-weight: 400;
-    font-size: 50px;
+    font-size: 52px;
     font-family: DM Serif display;
 }
 .top-heading p{
+    padding-top: 15px;
     font-family: jost;
     font-weight: 400;
     font-size: 24px;
@@ -29,10 +33,10 @@
 }
 @media only screen and (max-width: 1440px) {
     .accomodation-outer{
-        padding: 76px;
+        padding: 56px;
     }
     .accomodation{
-        padding: 76px;
+        padding: 36px;
     }
     .top-heading h1{
         font-size: 45px;
@@ -82,7 +86,7 @@
         height: 250px;
      }
     }
-    @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 567px) {
         .accomodation-outer{
             padding: 28px;
         }
@@ -122,5 +126,3 @@
              }
             
             }
-
-

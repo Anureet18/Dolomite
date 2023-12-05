@@ -23,7 +23,7 @@ function Details() {
                 <div>
                     <div className="name">
                         <div className="tabia"><h1>Tabià La Stua</h1></div>
-                        <div className="share" ><Button className='button' variant="dark"><img src="/images/share.png" alt="" /> Share</Button></div>
+                        <div><Button className='share-button' variant="dark"><img src="/images/share.png" alt="" /> Share</Button></div>
                     </div>
                 </div>
                 <div className="rating">
@@ -32,7 +32,7 @@ function Details() {
                 </div>
                 <div className="location-tabia"><img src="/images/loc.png" alt="" /> <p>Lorem ipsum road, Tantruim-2322, Arabba</p></div>
 
-                <Row className='view'>
+                <Row className='view m-0'>
                     <Col sm={12} lg={8} md={12} xs={12} >
                         <div className="overview">
                             <div className="details-tabia">
@@ -49,14 +49,14 @@ function Details() {
                                 <h6>Top Facilites</h6>
                                 <Row className='over m-0'>
                                     <Col>
-                                        <ul>
+                                        <ul className='top-dolo'>
                                             <li><img src="/images/wifi.png" alt="" /> Free wifi</li>
                                             <li><img src="/images/air.png" alt="" /> Air Conditioning</li>
                                             <li><img src="/images/parking.png" alt="" /> Parking available</li>
                                         </ul>
                                     </Col>
                                     <Col>
-                                        <ul>
+                                        <ul className='top-dolo' >
                                             <li><img src="/images/business.png" alt="" /> Business Services</li>
                                             <li><img src="/images/pool.png" alt="" /> Swimming pool</li>
                                             <li><img src="/images/like.png" alt="" /> Top rated in area</li>
@@ -68,7 +68,7 @@ function Details() {
                     </Col>
 
                     <Col sm={12}  lg={4} md={6} xs={12}>
-                        <div className="form-control">
+                        <div className="control">
                         <h2 className='req-head'>Request</h2>
                         <Formik
                         

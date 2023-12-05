@@ -4,7 +4,7 @@
     object-fit: cover;
 }
 .carousel_outer{
-    padding-top: 80px ;
+    padding: 68px ;
 }
 .slick-dots .slick-thumb {
     display: flex;

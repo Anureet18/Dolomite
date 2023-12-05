@@ -9,7 +9,7 @@ const Similar = () => {
   return (
     <div>
       <div className='similar-content'>
-        <div><h2 className='title'>SIMILAR PROPERTIES</h2></div>
+        <div><h2 className='similar-title'>SIMILAR PROPERTIES</h2></div>
         <div>
           <Button variant="light" className='similar-button'>See all</Button>{' '}
         </div>

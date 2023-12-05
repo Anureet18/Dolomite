@@ -10,3 +10,9 @@
     height: 50px;
     font-weight: 700;  
 }
+.similar-title{
+    padding-left: 22px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    margin: 0;
+}

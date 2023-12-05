@@ -1,11 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Playfair+Display:wght@400;500&family=Poppins:wght@500&display=swap');
 
-.homepage-outer{
-    padding: 50px 0;
+
+ .homepage-outer {
+    padding: 91px 50px;
 }
 .content{
-    padding: 0px 34px;
     text-align: left;  
+    padding-left: 2.2rem;
+    padding-bottom: 0;
+    padding-right: 0;
 }
 .title{
     font-family: 'DM Serif Display', serif;
@@ -20,7 +23,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
 }
 .all-button{
     width: 136px;

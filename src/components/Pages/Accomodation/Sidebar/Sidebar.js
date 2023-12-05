@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import './Sidebar.css'
@@ -15,14 +15,16 @@ function Sidebar() {
     email: yup.string().email('Invalid email').required('Required'),
   });
 
+
+
   return (
     <>
-      <div className='sidebar-outer'>
-        
-        <hr />
+      <div className="sidebar-outer">
         <Row className='filter m-0'>
-          <Col>
-          <div className='label-icon'>
+          <Col className='sidebar-column'><h2>Filters</h2></Col>
+          <hr />
+          <Col className='sidebar-column'>
+            <div className='label-icon'>
               <div><h6>Locations</h6></div>
               <div>< FaAngleDown /></div>
             </div>
@@ -60,12 +62,12 @@ function Sidebar() {
             </Form>
           </Col>
           <hr />
-          <Col>
+          <Col className='sidebar-column'>
             <Form>
-            <div className='label-icon'>
-              <div><h6>Status</h6></div>
-              <div>< FaAngleDown /></div>
-            </div>
+              <div className='label-icon'>
+                <div><h6>Status</h6></div>
+                <div>< FaAngleDown /></div>
+              </div>
 
               {['checkbox'].map((type) => (
                 <div key={`inline-${type}`} className="mb-3">
@@ -92,43 +94,42 @@ function Sidebar() {
             </Form></Col>
 
           <hr />
-          <Col>
-          <div className='label-icon'>
+          <Col className='sidebar-column'>
+            <div className='label-icon'>
               <div><h6>Rooms</h6></div>
               <div>< FaAngleDown /></div>
             </div>
-            <div className="rating">
-            <Button variant="light">0+</Button>{' '}
-            <Button variant="light">1+</Button>{' '}
-            <Button variant="light">2+</Button>{' '}
-            <Button variant="light">3+</Button>{' '}
-            <Button variant="light">4+</Button>{' '}
+            <div className="rating-side"  >
+              <Button variant="light" size="sm" >0+</Button>{' '}
+              <Button variant="light" size="sm" >1+</Button>{' '}
+              <Button variant="light" size="sm" >2+</Button>{' '}
+              <Button variant="light" size="sm" >3+</Button>{' '}
+              <Button variant="light" size="sm" >4+</Button>{' '}
             </div>
           </Col>
           <hr />
-          <Col>
+          <Col className='sidebar-column'>
             <div className='label-icon'>
               <div><h6>Rating</h6></div>
               <div>< FaAngleDown /></div>
             </div>
             <div className="rating">
-            <Button variant="light">0+</Button>{' '}
-            <Button variant="light">1+</Button>{' '}
-            <Button variant="light">2+</Button>{' '}
-            <Button variant="light">3+</Button>{' '}
-            <Button variant="light">4+</Button>{' '}
+              <Button variant="light" size="sm" >0+</Button>{' '}
+              <Button variant="light" size="sm"  >1+</Button>{' '}
+              <Button variant="light" size="sm" >2+</Button>{' '}
+              <Button variant="light" size="sm" >3+</Button>{' '}
+              <Button variant="light" size="sm" >4+</Button>{' '}
             </div>
           </Col>
         </Row>
       </div>
-
       <div className="special">
         <h2 className='any'>DO YOU HAVE ANY <br />
           SPECIAL REQUESTS?</h2>
         <p>We offer our guests the best accommodation in
           the Dolomites, selected and cared for for a
           dream holiday.</p>
-        <div className="form-control">
+        <div >
           <Formik
             validationSchema={schema}
             onSubmit={console.log}
@@ -175,12 +176,21 @@ function Sidebar() {
                     rows={6}
                     placeholder='Your message' />
                 </Form.Group>
-
+                <div>
+                  <label className='terms-label'>
+                    <input
+                      type="checkbox"
+                      id="myCheckbox"
+                    />
+                    I confirm that I have read the Privacy Policy
+                  </label>
+                </div>
                 <Button className='send-btn' type="submit">Send</Button>
               </Form>
             )}
           </Formik>
         </div>
+
       </div>
     </>
   )

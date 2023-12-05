@@ -8,18 +8,21 @@
 .contact h1{
   font-family: DM serif display;
   color: #002040;
-  font-size: 56px;
+  font-size: 50px;
   
 }
+.contact-details{
+    padding-right: 80px;
+}
 .contact p{
-    font-size: 28px;
+    font-size: 24px;
     font-family: jost;
     padding-top: 22px;
     font-weight: 400;
     color:#6B6B6B;
 }
 .call{
-    padding: 120px;
+    padding: 80px;
 }
 .contact-us{
     
@@ -42,7 +45,7 @@
     font-weight: 700;
 }
 .phone img{
-    width: 70%;
+    width: 100%;
 }
 .icon{
 border-radius: 50%;
@@ -151,6 +154,9 @@ border-radius: 50%;
 
 }
 @media only screen and (max-width: 768px) {
+    .contact-outer{
+        padding: 12px;
+    }
     hr{
          margin: 3px 0;
     }
@@ -202,6 +208,9 @@ border-radius: 50%;
     hr{
          margin: 2px 0;
     }
+    .contact-outer{
+        padding: 12px;
+    }
     .contact{
         padding-top: 24px;
     }
@@ -209,14 +218,14 @@ border-radius: 50%;
       font-size: 22px;
     }
     .contact p{
-        font-size: 10px;
+        font-size: 8px;
        padding-top: 0px;
     }
     .call{
         padding: 24px;
     }
     .contact-us{
-        padding: 0px 45px 20px 45px
+        
     }
     .contact-us h1{
         margin: 0px;
@@ -246,5 +255,3 @@ border-radius: 50%;
     }
 
 }
-
-

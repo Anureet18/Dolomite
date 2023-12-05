@@ -48,9 +48,10 @@ const Luxury = () => {
             <img src='/images/tabia4.png' alt='' className='img_scroll' />
           </div>
         </Slider>
-      </div>
-      <Details/>
+      
+      <Details/> </div>
       <Footer />
+     
     </>
   );
 };

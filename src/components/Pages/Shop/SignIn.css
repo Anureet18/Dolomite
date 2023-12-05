@@ -1,0 +1,64 @@
+
+.log{
+    text-align: center;
+    margin-top: 100px;
+}
+.log-out{
+    text-align: center;
+}
+.log-in h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.input_space{
+    margin-bottom: 10px;
+}
+.input-login {
+    padding: 20px;
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+}
+.signbtn{
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    border: 1px solid #002040;
+    font-weight: 500;
+    background-color:rgb(200, 200, 200);
+    border: none;
+    margin: 20px;
+}
+.logout{
+    margin-right: 5px;
+    color: white;
+    font-weight: 400;
+}
+.log-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.delete{
+    margin-right: 5px;
+    color: white;
+    background-color: rgb(19, 103, 142);
+    font-weight: 400;
+}
+.display{
+    background-color: #002040;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.read{
+    text-align: center;
+    background-color: #002040;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

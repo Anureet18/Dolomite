@@ -15,6 +15,7 @@
 .hero-container >h1{
     font-family: 'Playfair Display', serif;
     font-size: 66px;
+    padding-bottom: 16px;
 }
 
 .hero-container >h2{
@@ -32,6 +33,7 @@
     font-size: 20px;
     margin-top: 20px;
     font-style:'Poppins', sans-serif;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
 .hero-btn img{
     padding:3px 0 0 10px;
@@ -61,9 +63,11 @@
 }
 
 .text-container>h2{
+    font-family: jost;
     font-weight: 400;
     font-size: 30px;
 }
+
 @media (max-width: 1399px){
     .text-container {
         padding: 90px;

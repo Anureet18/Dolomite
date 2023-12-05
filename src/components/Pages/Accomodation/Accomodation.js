@@ -10,10 +10,10 @@ import Pagination from 'react-bootstrap/Pagination';
 const Accomodation = () => {
     return (
         <>
-            <Row className='accomodation-outer' >
+            <Row className='accomodation-outer m-0'  >
                 <Col sm={6} className='top-heading' > 
-                    <h1>Accommodation In The Dolomites</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur. Suspendisse  consequat pulvinar vel in tincidunt pulvinar adipiscing nisl. Ut faucibus mi cursus sed. Eget fermentum egestas mauris sem pellentesque lorem eget varius euismod. Metus blandit vitae vitae ac.</p>
+                    <h1>Accommodation In <br/> The Dolomites</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. Suspendisse <br/> consequat pulvinar vel in tincidunt pulvinar <br/>adipiscing nisl. Ut faucibus mi cursus sed. Eget <br/>fermentum egestas mauris sem pellentesque lorem <br/>eget varius euismod. Metus blandit vitae vitae ac.</p>
                 </Col>  
                 <Col sm={6}><img className='villa' src="/images/top.png" alt='' /> </Col>
             </Row>   
@@ -33,10 +33,10 @@ const Accomodation = () => {
                         </div>
 
                         <div>
-                            <Row className='m-0'>
+                            <Row className='m-0 '>
                                 {data.map((item, i) => {
                                     return (
-                                        <Col lg={6} md={6}  xs={12} >
+                                        <Col className='accomodation-item' lg={6} md={6}  xs={12} >
                                             <Item key={i} id={item.id} name={item.name} image={item.image} location={item.location} price={item.price} />
                                         </Col>
                                     )

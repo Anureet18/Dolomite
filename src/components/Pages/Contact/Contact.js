@@ -13,8 +13,8 @@ const Contact = () => {
                 <h1>KEEP IN TOUCH</h1>
                 <p>We are at your disposal for any questions about our services, properties <br />and much more. Don't miss the opportunity to discover the Dolomites!</p>
             </div>
-            <Row className='call'>
-                <Col lg={6} md={12} xs={12} >
+            <Row className='call m-0'>
+                <Col className='contact-details' lg={6} md={12} xs={12} >
                     <div className='contact-us'>
                         <h1><span className='icon'><img src='./images/phone.png' alt=''/></span>Call us</h1>
                         <hr />

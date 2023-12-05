@@ -2,7 +2,6 @@
 
 .main_about{
     background-color:#F8F8F8;
-    margin-top: 8rem;
     height: 364px;
 }
 .about-us{
@@ -17,7 +16,7 @@
 }
 .about h1{
     font-size: 44px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .about p{
     font-size: 26px;

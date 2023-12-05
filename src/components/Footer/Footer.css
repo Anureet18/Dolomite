@@ -27,12 +27,9 @@
     font-size: 20px;
     align-items: center;
 }
-.row{
-    text-align: center; 
-    justify-content: space-evenly;
-}
 
 .foot{
+    text-align: left;
     padding: 80px;   
 }
 
@@ -42,10 +39,12 @@
     font-weight: 600;  
     padding-top: 12px;  
 }
-a{
+.footer-column a{
     color: black;
     text-decoration: none;
-    padding-top: 12px;
+}
+.footer-column a{
+    padding-top: 10px;
 }
 .footer-column{
     display: flex;

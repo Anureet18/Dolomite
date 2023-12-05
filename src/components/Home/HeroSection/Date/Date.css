@@ -3,11 +3,9 @@
 .container{
     padding: 0;
 }
-.row{
-    align-items: center;
-}
 .enter{
-    padding: 15px 50px;
+    align-items: center;
+    padding: 28px 50px;
     color: black;
     width: 100%;
     margin: 0;
@@ -21,6 +19,8 @@
     flex-direction: column;
 }
 input{
+    width: 80%;
+    float: left;
     font-family: jost;
     width: 180px;
     border-radius: 5px;
@@ -28,7 +28,6 @@ input{
     padding: 6px ;
     font-weight: 500;
     font-size: 20px;
-    margin-right: 95px;
 }
 .form-select{
     width: 60%;
@@ -42,11 +41,14 @@ input{
     text-align: left;
 }
 .check-btn{
+    width: 100%;
     padding: 14px 30px;
     background-color: #002040;
     color: aliceblue;
     font-family: jost;
     font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .check-btn img{
     padding-left: 10px;
@@ -56,77 +58,78 @@ input{
     flex-direction: column;   
 }
 .drop{
-
     border:1px solid #002040;
     padding: 5px;
     font-weight: 500;
     font-size: 20px;
 }
+.react-datepicker-wrapper {
+    display: inherit;
+}
 @media (max-width: 1440px){ 
     input {
-        width: 140px;
-        font-size: 18px;
-        margin-right: 141px;
+        width: 80%;
+        font-size: 16px;
     } 
-    .col {
-        padding: 2px 0px;
-    }
+    
     .enter label {
+        font-size: 16px;
         padding-bottom: 10px;
     }
    .enter {
-       padding:15px 55px;
+       padding: 18px 24px;
        color: black;
        width: 100%;
        margin: 0;
 }
 .check-btn {
-    padding: 13px 27px;
-    font-size: 19px;
+    padding: 8px 11px;
+    font-size: 16px;
+}
+   
+.check-btn img {
+    padding-left: 4px;
 }
 .drop {
-    padding: 7px;
-    font-size: 18px;
+    width: 60%;
+    padding: 6px;
+    font-size: 16px;
 }
 }
 @media (max-width: 1024px){ 
     input {
-        width: 110px;
-        font-size: 12px;
-        margin-right: 80px;
+        font-size: 14px;
     } 
-    .col {
-        padding: 2px 0px;
-    }
    .enter {
-       padding:15px 30px;
+       padding:18px 24px;
        color: black;
        width: 100%;
        margin: 0;
     }
    .check-btn {
       padding: 9px 6px;
-      font-size: 18px;
+      font-size: 14px;
     }
    .drop {
-     padding: 2px;
-     font-size: 18px;
+     padding: 4px;
+     font-size: 14px;
     }
 }
 @media (max-width: 998px){
    .enter {
-       padding:15px 22px;
+       padding:16px 22px;
        color: black;
        width: 100%;
-       margin: 0;
+       margin-top: 36px;
+       font-size: 14px;
     }
     .enter label {
-        font-size: 16px;
+        font-size: 14px;
         padding-bottom: 3px;
        }
        .check-btn {
-        padding: 5px 2px;
-        font-size: 16px;
+        padding: 7px;
+        font-size: 14px;
     }
     .check-btn img {
         padding-left: 4px;
@@ -135,74 +138,66 @@ input{
 }
 @media (max-width: 768px){ 
     input {
-        width: 103px;
-        font-size: 13px;
-        margin-right: 28px;
+        font-size: 10px;
         padding: 2px;
     }
-    .col {
-        padding: 2px 0px;
-    }
    .enter {
-       padding: 14px 15px;
+       padding: 12px 18px;
        color: black;
        width: 100%;
        margin-top: 44px;
     }
    .check-btn {
       padding: 5px 6px;
-      font-size: 13px;
+      font-size: 10px;
     }
    .check-btn img {
      padding-left: 4px;
-     width: 18px;
+     width: 14px;
     }
    .enter label {
-     font-size: 15px;
+     font-size: 12px;
      padding-bottom: 3px;
     }
    .drop {
      padding: 2px;
-     font-size: 13px;
+     font-size: 10px;
     }
 }
 @media (max-width: 567px){ 
-    input {
-        width: 46px;
-        font-size: 7px;
-        margin-right: 15px;
-        padding: 2px;
-        border-radius: 4px;
+    .form-select{
+        background-size: 10px 6px;
+        background-position: right 0.165rem center
     }
-    .col {
-        padding: 2px 0px;
+    input {
+        font-size: 7px;
+        padding: 2px;
+        border-radius: 3px;
     }
    .enter {
-       padding: 8px 7px;
+       padding: 10px 22px;
        color: black;
        width: 100%;
-       margin: 0;
        margin-top: 113px;
        margin-bottom: 25px;
-       border-radius: 0px;
+       border-radius: 2px;
     }
    .check-btn {
-    padding: 2px 3px;
-    font-size: 6px;
-    border-radius: 4px;
+      padding: 2px 3px;
+      font-size: 8px;
+      border-radius: 4px;
     }
    .check-btn img {
-    padding-left: 1px;
-    width: 12px;
+      padding-left: 1px;
+      width: 12px;
     }
    .enter label {
-    font-size: 8px;
-    padding-bottom: 1px;
+      font-size: 6px;
+      padding-bottom: 1px;
     }
    .drop {
-     padding: 2px;
-     font-size: 8px;
-     width: 42px;
-     border-radius: 4px;
-    }
+      padding: 2px;
+      font-size: 8px;
+      border-radius: 3px;
+    }  
 }
